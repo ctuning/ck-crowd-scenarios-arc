@@ -112,6 +112,7 @@
     5
   ],
   "model": "BVLC AlexNet",
+  "outdated": "yes",
   "supported_abi": [
     "arm64-v8a",
     "armeabi-v7a"

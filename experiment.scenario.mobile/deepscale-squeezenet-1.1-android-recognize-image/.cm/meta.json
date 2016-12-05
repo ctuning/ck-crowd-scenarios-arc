@@ -124,6 +124,7 @@
     5
   ],
   "model": "DeepScale Squeezenet 1.1",
+  "outdated": "yes",
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",

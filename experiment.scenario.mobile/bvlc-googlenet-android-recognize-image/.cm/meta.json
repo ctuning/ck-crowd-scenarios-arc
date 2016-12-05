@@ -112,6 +112,7 @@
     5
   ],
   "model": "BVLC GoogleNet",
+  "outdated": "yes",
   "skip": "no",
   "supported_abi": [
     "arm64-v8a",
