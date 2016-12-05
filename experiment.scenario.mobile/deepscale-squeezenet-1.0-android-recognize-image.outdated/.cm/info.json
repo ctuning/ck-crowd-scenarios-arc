@@ -1,5 +1,5 @@
 {
-  "backup_data_uid": "97fd474c94b90ed3",
+  "backup_data_uid": "4896d42651c7e56f",
   "backup_module_uid": "65477d547a49dd2c",
   "backup_module_uoa": "experiment.scenario.mobile",
   "control": {
@@ -8,13 +8,14 @@
     "author_webpage": "http://fursin.net",
     "copyright": "See CK COPYRIGHT.txt for copyright details",
     "engine": "CK",
-    "iso_datetime": "2016-11-02T16:03:20.963306",
+    "iso_datetime": "2016-12-05T17:24:29.671997",
     "license": "See CK LICENSE.txt for licensing details",
     "version": [
       "1",
       "8",
-      "3dev"
+      "4",
+      "2"
     ]
   },
-  "data_name": "deepscale-squeezenet-1.1-android-recognize-image"
+  "data_name": "deepscale-squeezenet-1.0-android-recognize-image.outdated"
 }
