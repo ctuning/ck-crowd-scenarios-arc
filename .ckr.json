@@ -1,0 +1,18 @@
+{
+  "data_name": "ck-crowd-scenarios-arc",
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      },
+      {
+        "repo_uoa": "ck-caffe"
+      }
+    ], 
+    "url": "https://github.com/ctuning/ck-crowd-scenarios-arc",
+    "shared": "git"
+  },
+  "data_uoa": "ck-crowd-scenarios-arc",
+  "data_uid": "4b4e921eb5f74ab7",
+  "data_alias": "ck-crowd-scenarios-arc"
+}
