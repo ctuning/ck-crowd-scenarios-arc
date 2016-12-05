@@ -1,0 +1,121 @@
+{
+  "cmd": "./classification $#local_path#$/openscience/data/9c398c1f074623b0/topology/deploy.prototxt $#local_path#$/openscience/data/9c398c1f074623b0/model/bvlc_googlenet.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
+  "desc": "crowd-benchmarking image recognition using standard Caffe Android library for CPU and BVLC GoogleNet NN",
+  "engine": "Caffe CPU",
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 10605904,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "ce68f9970503fd8b8dfb29412b71b126",
+      "path": "code/0ef2b70e4791b83b/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 7121060,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "fc89625989153e11edc8809df5883da4",
+      "path": "code/0ef2b70e4791b83b/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 292992,
+      "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "b1320e321397f02a94567a19bbbca058",
+      "path": "code/6fa68c1b9805d268/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 239244,
+      "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
+      "path": "code/6fa68c1b9805d268/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "default_image": "yes",
+      "file_size": 7519011,
+      "filename": "mouse1.jpg",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48",
+      "path": "data/4a6e91d75d682cec/demo"
+    },
+    {
+      "file_size": 31675,
+      "filename": "synset_words.txt",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "4d234b5833aca44928065a180db3016a",
+      "path": "data/4a6e91d75d682cec/labels"
+    },
+    {
+      "file_size": 786446,
+      "filename": "imagenet_mean.binaryproto",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6df445471f4fa8a98fc19932d21bef77",
+      "path": "data/4a6e91d75d682cec/mean"
+    },
+    {
+      "file_size": 35862,
+      "filename": "deploy.prototxt",
+      "md5": "4a7281748d91b960ba86d681010d4aa2",
+      "path": "data/9c398c1f074623b0/topology"
+    },
+    {
+      "file_size": 344,
+      "filename": "solver.prototxt",
+      "md5": "96171082495190d51e13932f60d897cd",
+      "path": "data/9c398c1f074623b0/topology"
+    },
+    {
+      "file_size": 39968,
+      "filename": "train_val.prototxt",
+      "md5": "a4b18c8dd70498b76bb29c7622764e02",
+      "path": "data/9c398c1f074623b0/topology"
+    },
+    {
+      "file_size": 2255,
+      "filename": "readme.md",
+      "md5": "84f3cdd446abd67e572cf09a16f0af72",
+      "path": "data/9c398c1f074623b0/model"
+    },
+    {
+      "file_size": 53533754,
+      "filename": "bvlc_googlenet.caffemodel",
+      "md5": "dc05671f0443708da1b0d0ae0e0c9cad",
+      "model_weights": "yes",
+      "path": "data/9c398c1f074623b0/model",
+      "url": "http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "model": "BVLC GoogleNet",
+  "skip": "no",
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "title": "Caffe CPU: BVLC GoogleNet img"
+}

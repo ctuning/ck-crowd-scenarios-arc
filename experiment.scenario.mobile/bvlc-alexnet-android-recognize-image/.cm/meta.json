@@ -1,0 +1,120 @@
+{
+  "cmd": "./classification $#local_path#$/openscience/data/ba4eb06e64795b0d/topology/deploy.prototxt $#local_path#$/openscience/data/ba4eb06e64795b0d/model/bvlc_alexnet.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
+  "desc": "crowd-benchmarking image recognition using Caffe Android library for CPU and BVLC AlexNet NN",
+  "engine": "Caffe CPU",
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 10605904,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "ce68f9970503fd8b8dfb29412b71b126",
+      "path": "code/0ef2b70e4791b83b/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 7121060,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "fc89625989153e11edc8809df5883da4",
+      "path": "code/0ef2b70e4791b83b/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 292992,
+      "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "b1320e321397f02a94567a19bbbca058",
+      "path": "code/6fa68c1b9805d268/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 239244,
+      "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6aa3a04f377b5e11f6847941a60cc4d6",
+      "path": "code/6fa68c1b9805d268/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "default_image": "yes",
+      "file_size": 7519011,
+      "filename": "mouse1.jpg",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48",
+      "path": "data/4a6e91d75d682cec/demo"
+    },
+    {
+      "file_size": 31675,
+      "filename": "synset_words.txt",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "4d234b5833aca44928065a180db3016a",
+      "path": "data/4a6e91d75d682cec/labels"
+    },
+    {
+      "file_size": 786446,
+      "filename": "imagenet_mean.binaryproto",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6df445471f4fa8a98fc19932d21bef77",
+      "path": "data/4a6e91d75d682cec/mean"
+    },
+    {
+      "file_size": 3629,
+      "filename": "deploy.prototxt",
+      "md5": "fdb525acaa8d3db0f87c5577901f53ee",
+      "path": "data/ba4eb06e64795b0d/topology"
+    },
+    {
+      "file_size": 298,
+      "filename": "solver.prototxt",
+      "md5": "53a7dd70fc16f0d61e09f85878791adf",
+      "path": "data/ba4eb06e64795b0d/topology"
+    },
+    {
+      "file_size": 5430,
+      "filename": "train_val.prototxt",
+      "md5": "80e547e6445e646d45e1c2ad1456913c",
+      "path": "data/ba4eb06e64795b0d/topology"
+    },
+    {
+      "file_size": 1141,
+      "filename": "readme.md",
+      "md5": "b18aad22cdad9c6589d94ad164d941ca",
+      "path": "data/ba4eb06e64795b0d/model"
+    },
+    {
+      "file_size": 243862414,
+      "filename": "bvlc_alexnet.caffemodel",
+      "md5": "29eb495b11613825c1900382f5286963",
+      "model_weights": "yes",
+      "path": "data/ba4eb06e64795b0d/model",
+      "url": "http://dl.caffe.berkeleyvision.org/bvlc_alexnet.caffemodel"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "model": "BVLC AlexNet",
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "title": "Caffe CPU: BVLC AlexNet img"
+}
