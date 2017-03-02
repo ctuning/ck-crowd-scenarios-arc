@@ -1,0 +1,21 @@
+{
+  "backup_data_uid": "b0c2d74888a022ac",
+  "backup_module_uid": "65477d547a49dd2c",
+  "backup_module_uoa": "experiment.scenario.mobile",
+  "control": {
+    "author": "cTuning foundation",
+    "author_email": "admin@cTuning.org",
+    "author_webpage": "http://cTuning.org",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "engine": "CK",
+    "iso_datetime": "2017-03-02T15:24:19.516016",
+    "license": "See CK LICENSE.txt for licensing details",
+    "version": [
+      "1",
+      "8",
+      "7",
+      "1"
+    ]
+  },
+  "data_name": "deepscale-squeezenet-1.0-android-recognize-image.arc2"
+}

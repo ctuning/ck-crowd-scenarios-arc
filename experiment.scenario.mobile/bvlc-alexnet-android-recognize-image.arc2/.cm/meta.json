@@ -1,0 +1,271 @@
+{
+  "cmd": "./classification $#local_path#$/openscience/data/ba4eb06e64795b0d/topology/deploy.prototxt $#local_path#$/openscience/data/ba4eb06e64795b0d/model/bvlc_alexnet.caffemodel $#local_path#$/openscience/data/4a6e91d75d682cec/mean/imagenet_mean.binaryproto $#local_path#$/openscience/data/4a6e91d75d682cec/labels/synset_words.txt $#image#$",
+  "desc": "crowd-benchmarking image recognition using Caffe Android library for CPU and BVLC AlexNet NN",
+  "engine": "Caffe CPU",
+  "engine_meta": {
+    "arm64-v8a": {
+      "deps_versions": {
+        "compiler": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "compiler,lang-cpp",
+          "version": "4.9.x"
+        },
+        "lib-blas": {
+          "iso_datetime_cut_revision": "20161202-433edc7",
+          "revision": "433edc7",
+          "tags": "lib,blas,openblas",
+          "version": "development-433edc7"
+        },
+        "lib-boost": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,boost",
+          "version": "1.62.0"
+        },
+        "lib-caffe": {
+          "iso_datetime_cut_revision": "20160816-080c238",
+          "revision": "080c238",
+          "tags": "lib,caffe",
+          "version": "trunk-080c238"
+        },
+        "lib-gflags": {
+          "iso_datetime_cut_revision": "20150324-1a02f28",
+          "revision": "1a02f28",
+          "tags": "lib,gflags",
+          "version": "development-1a02f28"
+        },
+        "lib-glog": {
+          "iso_datetime_cut_revision": "20161020-b6a5e05",
+          "revision": "b6a5e05",
+          "tags": "lib,glog",
+          "version": "development-b6a5e05"
+        },
+        "lib-opencv": {
+          "iso_datetime_cut_revision": "20161202-4a095e4",
+          "revision": "4a095e4",
+          "tags": "lib,opencv",
+          "version": "development-4a095e4"
+        },
+        "lib-protobuf": {
+          "iso_datetime_cut_revision": "20161202-6b60ddd",
+          "revision": "6b60ddd",
+          "tags": "lib,protobuf",
+          "version": "development-6b60ddd"
+        },
+        "xopenme": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,xopenme",
+          "version": "0.3"
+        }
+      },
+      "program_version": "1.0.0"
+    },
+    "armeabi-v7a": {
+      "deps_versions": {
+        "compiler": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "compiler,lang-cpp",
+          "version": "4.9.x"
+        },
+        "lib-blas": {
+          "iso_datetime_cut_revision": "20161202-433edc7",
+          "revision": "433edc7",
+          "tags": "lib,blas,openblas",
+          "version": "development-433edc7"
+        },
+        "lib-boost": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,boost",
+          "version": "1.62.0"
+        },
+        "lib-caffe": {
+          "iso_datetime_cut_revision": "20160816-080c238",
+          "revision": "080c238",
+          "tags": "lib,caffe",
+          "version": "trunk-080c238"
+        },
+        "lib-gflags": {
+          "iso_datetime_cut_revision": "20150324-1a02f28",
+          "revision": "1a02f28",
+          "tags": "lib,gflags",
+          "version": "development-1a02f28"
+        },
+        "lib-glog": {
+          "iso_datetime_cut_revision": "20161020-b6a5e05",
+          "revision": "b6a5e05",
+          "tags": "lib,glog",
+          "version": "development-b6a5e05"
+        },
+        "lib-opencv": {
+          "iso_datetime_cut_revision": "20161204-c48d7f8",
+          "revision": "c48d7f8",
+          "tags": "lib,opencv",
+          "version": "development-c48d7f8"
+        },
+        "lib-protobuf": {
+          "iso_datetime_cut_revision": "20161203-f1ce60e",
+          "revision": "f1ce60e",
+          "tags": "lib,protobuf",
+          "version": "development-f1ce60e"
+        },
+        "xopenme": {
+          "iso_datetime_cut_revision": "",
+          "revision": "",
+          "tags": "lib,xopenme",
+          "version": "0.3"
+        }
+      },
+      "program_version": "1.0.0"
+    }
+  },
+  "files": [
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 10704208,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "9623ede8555e0e58e7c6b806fce8d4ab",
+      "path": "code/a779425ab5ad2606/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 6535320,
+      "filename": "libcaffe.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "a0538b03458ac507765a073de61f2004",
+      "path": "code/a779425ab5ad2606/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 12600,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "194251ec732b525a9051407df3484ac1",
+      "path": "code/9a99d988de92928d/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 17804,
+      "filename": "librtlxopenme.so",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "library": "yes",
+      "md5": "b7851df26147ac994d97be360af1fda6",
+      "path": "code/9a99d988de92928d/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 7591088,
+      "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "11de3f88fc0d1d6448a24d8b0b7d5e23",
+      "path": "code/205a3542231ac3c1/arm64-v8a",
+      "supported_abi": [
+        "arm64-v8a"
+      ]
+    },
+    {
+      "copy_to_app_space": "yes",
+      "executable": "yes",
+      "file_size": 5204344,
+      "filename": "classification",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "cc063a74c0a8144b09feae26be2ee408",
+      "path": "code/205a3542231ac3c1/armeabi-v7a",
+      "supported_abi": [
+        "armeabi-v7a"
+      ]
+    },
+    {
+      "default_image": "yes",
+      "file_size": 7519011,
+      "filename": "mouse1.jpg",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "80e515155abbfe5e2f31ffcb90d40f48",
+      "path": "data/4a6e91d75d682cec/demo"
+    },
+    {
+      "file_size": 31675,
+      "filename": "synset_words.txt",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "4d234b5833aca44928065a180db3016a",
+      "path": "data/4a6e91d75d682cec/labels"
+    },
+    {
+      "file_size": 786446,
+      "filename": "imagenet_mean.binaryproto",
+      "from_data_uoa": "1046ff8d479dc6af",
+      "md5": "6df445471f4fa8a98fc19932d21bef77",
+      "path": "data/4a6e91d75d682cec/mean"
+    },
+    {
+      "file_size": 3629,
+      "filename": "deploy.prototxt",
+      "md5": "fdb525acaa8d3db0f87c5577901f53ee",
+      "path": "data/ba4eb06e64795b0d/topology"
+    },
+    {
+      "file_size": 298,
+      "filename": "solver.prototxt",
+      "md5": "53a7dd70fc16f0d61e09f85878791adf",
+      "path": "data/ba4eb06e64795b0d/topology"
+    },
+    {
+      "file_size": 5430,
+      "filename": "train_val.prototxt",
+      "md5": "80e547e6445e646d45e1c2ad1456913c",
+      "path": "data/ba4eb06e64795b0d/topology"
+    },
+    {
+      "file_size": 1141,
+      "filename": "readme.md",
+      "md5": "b18aad22cdad9c6589d94ad164d941ca",
+      "path": "data/ba4eb06e64795b0d/model"
+    },
+    {
+      "file_size": 243862414,
+      "filename": "bvlc_alexnet.caffemodel",
+      "md5": "29eb495b11613825c1900382f5286963",
+      "model_weights": "yes",
+      "path": "data/ba4eb06e64795b0d/model",
+      "url": "http://dl.caffe.berkeleyvision.org/bvlc_alexnet.caffemodel"
+    }
+  ],
+  "min_os_ver": [
+    5
+  ],
+  "model": "BVLC AlexNet",
+  "features":{
+    "accuracy":0.568279,
+    "accuracy_top5":0.799501
+  },
+  "supported_abi": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "outdated": "yes",
+  "title": "Caffe CPU: BVLC AlexNet"
+}
